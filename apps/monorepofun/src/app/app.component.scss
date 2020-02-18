@@ -1,0 +1,33 @@
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    margin: 0;
+  }
+}
+
+header {
+  background-color: #007FFD;
+  color: white;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+mat-toolbar {
+  background-color: #66aeff;
+  color: #fff;
+  
+  span {
+    cursor: pointer;
+  }
+}
+
+.fill-remaining-space {
+  margin-right: 2em;
+}
+
+.app-container {
+  margin: 5em 25%;
+}

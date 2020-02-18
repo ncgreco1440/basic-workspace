@@ -1,0 +1,15 @@
+mat-card-header {
+  img {
+    width: 5em;
+    height: 5em;
+  }
+}
+
+mat-card-content {
+  span {
+    & + p {
+      margin-left: 1em;
+    }
+  }
+
+}

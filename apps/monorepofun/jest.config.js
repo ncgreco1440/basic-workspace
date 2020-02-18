@@ -1,0 +1,10 @@
+module.exports = {
+  name: 'monorepofun',
+  preset: '../../jest.config.js',
+  coverageDirectory: '../../coverage/apps/monorepofun',
+  snapshotSerializers: [
+    'jest-preset-angular/build/AngularNoNgAttributesSnapshotSerializer.js',
+    'jest-preset-angular/build/AngularSnapshotSerializer.js',
+    'jest-preset-angular/build/HTMLCommentSerializer.js'
+  ]
+};

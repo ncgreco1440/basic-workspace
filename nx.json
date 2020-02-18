@@ -1,0 +1,28 @@
+{
+  "npmScope": "monofunworkspace",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "monorepofun": {
+      "tags": ["app"]
+    },
+    "monorepofun-e2e": {
+      "tags": [],
+      "implicitDependencies": ["monorepofun"]
+    },
+    "ui": {
+      "tags": ["ui"]
+    },
+    "feature-profile-details": {
+      "tags": []
+    }
+  }
+}
