@@ -1,5 +1,5 @@
 import { Component, ChangeDetectionStrategy, Input } from '@angular/core';
-import { UserProfile } from '../../../../feature-profile-details/src/lib/models';
+import { UserProfile } from '@monofunworkspace/feature-profile-details/src/lib/models';
 
 @Component({
   selector: 'monofunworkspace-profile-grid',

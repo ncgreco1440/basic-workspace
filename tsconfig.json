@@ -17,9 +17,15 @@
     "baseUrl": ".",
     "paths": {
       "@monofunworkspace/ui": ["libs/ui/src/index.ts"],
+      "@monofunworkspace/ui/*": ["libs/ui/*"],
       "@monofunworkspace/feature-profile-details": [
         "libs/feature-profile-details/src/index.ts"
-      ]
+      ],
+      "@monofunworkspace/feature-profile-details/*": [
+        "libs/feature-profile-details/*"
+      ],
+      "@monofunworkspace/profile-store": ["libs/profile-store"],
+      "@monofunworkspace/profile-store/*": ["libs/profile-store/*"]
     }
   },
   "exclude": ["node_modules", "tmp"]

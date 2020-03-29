@@ -1,4 +1,4 @@
-# Monofunworkspace | forked
+# Monofunworkspace
 
 - This project was generated using [Nx](https://nx.dev).
 - This project was generated with Angular CLI version 8.3.10.

@@ -4,10 +4,13 @@ import { RouterModule } from '@angular/router';
 import { ProfileDetailsComponent } from './profile-details/profile-details.component';
 import { UiModule } from '@monofunworkspace/ui';
 
+import { HttpClientModule } from '@angular/common/http';
+
 @NgModule({
   imports: [
     CommonModule,
     UiModule,
+    HttpClientModule,
     RouterModule.forChild([
       {
         path: '',
@@ -16,6 +19,7 @@ import { UiModule } from '@monofunworkspace/ui';
       }
     ])
   ],
-  declarations: [ProfileDetailsComponent]
+  declarations: [ProfileDetailsComponent],
+  providers: []
 })
 export class FeatureProfileDetailsModule {}
